@@ -1,0 +1,41 @@
+{
+  "name": "yows",
+  "description": "File Based Events WebSocket Server",
+  "version": "0.0.1",
+  "author": "kocisov",
+  "bin": "bin/cli.ts",
+  "bugs": {
+    "url": "https://github.com/kocisov/yows/issues"
+  },
+  "dependencies": {
+    "bufferutil": "^4.0.6",
+    "chalk": "^5.1.2",
+    "glob": "^8.0.3",
+    "utf-8-validate": "^5.0.9",
+    "ws": "^8.9.0"
+  },
+  "devDependencies": {
+    "@types/glob": "^8.0.0",
+    "@types/node": "^18.8.5",
+    "@types/ws": "^8.5.3",
+    "tsx": "^3.10.1",
+    "typescript": "^4.8.4"
+  },
+  "homepage": "https://github.com/kocisov/yows#readme",
+  "keywords": [
+    "Events",
+    "File-Based",
+    "Server",
+    "WebSocket"
+  ],
+  "license": "MIT",
+  "main": "src/index.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kocisov/yows.git"
+  },
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "start": "tsx src/index.ts"
+  }
+}
