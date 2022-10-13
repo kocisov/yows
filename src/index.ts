@@ -15,6 +15,7 @@ const defaultEvents: Record<string, string> = {
   "_connect.ts": "_connect",
   "_disconnect.ts": "_disconnect",
   "_error.ts": "_error",
+  "_message.ts": "_message",
 };
 
 export async function run(args: Record<string, string | undefined>) {
