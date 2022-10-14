@@ -10,6 +10,10 @@ run(
         type: "string",
         short: "p",
       },
+      folder: {
+        type: "string",
+        short: "f",
+      },
     },
     args: process.argv.slice(2),
   }).values
